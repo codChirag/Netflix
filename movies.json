@@ -1,0 +1,32 @@
+[
+  {
+    "id": "m1",
+    "title": "The Ocean Trailer",
+    "year": 2023,
+    "duration": "1:57",
+    "category": "Adventure",
+    "description": "A short demo trailer of ocean exploration.",
+    "thumbnail": "/assets/thumbnails/ocean.jpg",
+    "video": "/assets/sample-trailer.mp4"
+  },
+  {
+    "id": "m2",
+    "title": "Neon City",
+    "year": 2022,
+    "duration": "2:10",
+    "category": "Sci-Fi",
+    "description": "A neon-noir short film (demo clip).",
+    "thumbnail": "/assets/thumbnails/neon.jpg",
+    "video": "/assets/sample-trailer.mp4"
+  },
+  {
+    "id": "m3",
+    "title": "Wild Trails",
+    "year": 2021,
+    "duration": "2:45",
+    "category": "Documentary",
+    "description": "Short documentary clip about wildlife.",
+    "thumbnail": "/assets/thumbnails/wild.jpg",
+    "video": "/assets/sample-trailer.mp4"
+  }
+]
