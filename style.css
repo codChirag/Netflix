@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    z-index: 10;
+}
+
+.logo {
+    color: red;
+}
+
+.avatar {
+    border-radius: 5px;
+}
+
+/* Banner */
+.banner {
+    height: 400px;
+    background-image: url("https://wallpaperaccess.com/full/2703652.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.banner-content h1 {
+    font-size: 3rem;
+}
+
+.banner-content p {
+    width: 45%;
+    margin-top: 10px;
+}
+
+.btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #e50914;
+    color: white;
+    cursor: pointer;
+}
+
+/* Rows */
+.row {
+    margin-top: 450px;
+    padding: 20px;
+}
+
+.row h2 {
+    margin-bottom: 10px;
+}
+
+.row-posters {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.row-posters::-webkit-scrollbar {
+    display: none;
+}
+
+.poster {
+    width: 150px;
+    margin-right: 10px;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.poster:hover {
+    transform: scale(1.1);
+}
